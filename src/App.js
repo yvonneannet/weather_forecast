@@ -1,14 +1,16 @@
-import Weather from './components/weather-data/index'
+
+const App = () => {
+
+return (
+
+<div>
 
 
 
+</div>
 
-function App (){
-  return(
-    <div>
-      <Weather/>
+)
 
-    </div>
-  )
 }
+
 export default App;
