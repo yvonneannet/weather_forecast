@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+#main{
+  border: 2px solid blue;
+  border-radius: 25px;
+  margin: 10%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#header{
+  background-image: url(/public/Images/sunset.jpeg);
+  color: antiquewhite;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 50%;
+  background-size: cover;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  width: auto;
+  margin: 5% ;
 }
-
-.App-link {
-  color: #61dafb;
+#weatherUpdate{
+  margin:3% 0 2% 4%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#details{
+  margin:25% 0 2% 2%;
+}
+#temp{
+  font-size: 5rem;
+  font-weight:lighter ;
+}
+#location{
+  font-size: 1rem;
+}
+#name{
+  margin-left: 7%;
+  color: rgb(108, 108, 225);
+}
+#searchBar{
+  margin-left: 68%;
+  padding: 5px;
+  border-radius: 10px;
+  width: 20%;
+}
+#searchButton{
+  margin-left: 1%;
+  padding: 4px;
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+#humidityimg{
+  float: left;
+  width: 50%;
+}
+#sunsetimg{
+  float: left;
+  width: 50%;
+}
+#uvimg{
+  float: left;
+  width: 50%;
+}
+#sunriseimg{
+  float: left;
+  width: 50%;
+}
+#sunset{
+  width: 50%;
+}
+#humidity{
+  width: 50%;
+}
+#uvindex{
+  width: 40%;
+}
+#sunrise{
+  width: 50%;
+}
+#status{
+  display: flex;
+  width: 20%;
 }
